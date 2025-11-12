@@ -1,4 +1,4 @@
-@_spi(Execution) @_spi(Internal) @_spi(Unsafe) import ApolloAPI
+@_spi(Execution) @_spi(Internal) @_spi(Unsafe) import FiApolloAPI
 import Foundation
 
 /// An accumulator that converts executed data to the correct values for use in a selection set.

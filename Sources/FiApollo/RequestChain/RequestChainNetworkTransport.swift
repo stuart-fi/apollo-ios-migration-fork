@@ -1,4 +1,4 @@
-import ApolloAPI
+import FiApolloAPI
 import Foundation
 
 /// An implementation of `NetworkTransport` which creates a `RequestChain` object

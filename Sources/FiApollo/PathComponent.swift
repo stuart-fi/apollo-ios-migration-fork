@@ -1,5 +1,5 @@
 import Foundation
-import ApolloAPI
+import FiApolloAPI
 
 /// Represents a path in a GraphQL query.
 public enum PathComponent: Sendable, Equatable {

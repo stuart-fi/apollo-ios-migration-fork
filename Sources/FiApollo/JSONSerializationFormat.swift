@@ -1,5 +1,5 @@
 import Foundation
-@_spi(Internal) import ApolloAPI
+@_spi(Internal) import FiApolloAPI
 
 @_spi(Internal)
 public final class JSONSerializationFormat {

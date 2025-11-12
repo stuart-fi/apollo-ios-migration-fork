@@ -1,5 +1,5 @@
 import Foundation
-@_spi(Unsafe) import ApolloAPI
+@_spi(Unsafe) import FiApolloAPI
 
 /// A ``ResponseParsingInterceptor`` which uses a ``JSONResponseParser`` to parse JSON response data.
 public actor JSONResponseParsingInterceptor: ResponseParsingInterceptor {

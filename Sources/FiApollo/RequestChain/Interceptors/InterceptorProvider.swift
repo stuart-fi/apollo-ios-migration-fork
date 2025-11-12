@@ -1,4 +1,4 @@
-import ApolloAPI
+import FiApolloAPI
 
 // MARK: - Basic protocol
 

@@ -1,5 +1,5 @@
 import Foundation
-import ApolloAPI
+import FiApolloAPI
 
 public enum JSONResponseParsingError: Swift.Error, LocalizedError {
   case couldNotParseToJSON(data: Data)

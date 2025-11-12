@@ -1,5 +1,5 @@
 import Foundation
-import ApolloAPI
+import FiApolloAPI
 
 /// Manages a chain of steps taken to execute a ``GraphQLRequest``. ``RequestChain`` enables customization of each step
 /// of a request by injection of ``Interceptors``.

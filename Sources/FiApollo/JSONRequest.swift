@@ -1,5 +1,5 @@
 import Foundation
-@_spi(Internal) import ApolloAPI
+@_spi(Internal) import FiApolloAPI
 
 /// A request which sends JSON related to a GraphQL operation.
 public struct JSONRequest<Operation: GraphQLOperation>: GraphQLRequest, AutoPersistedQueryCompatibleRequest, Hashable {

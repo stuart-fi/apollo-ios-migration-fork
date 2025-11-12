@@ -1,4 +1,4 @@
-@_spi(Internal) @_spi(Unsafe) import ApolloAPI
+@_spi(Internal) @_spi(Unsafe) import FiApolloAPI
 
 public protocol JSONRequestBodyCreator: Sendable {
 

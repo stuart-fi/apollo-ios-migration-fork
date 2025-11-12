@@ -1,4 +1,4 @@
-@_spi(Unsafe) import ApolloAPI
+@_spi(Unsafe) import FiApolloAPI
 
 extension JSONResponseParser {
   @_spi(Execution)

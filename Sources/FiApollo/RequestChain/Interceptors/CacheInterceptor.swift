@@ -1,4 +1,4 @@
-import ApolloAPI
+import FiApolloAPI
 
 /// A protocol for an interceptor in a ``RequestChain`` that handles cache reads and writes.
 ///

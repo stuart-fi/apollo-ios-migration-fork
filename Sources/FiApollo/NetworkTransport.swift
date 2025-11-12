@@ -1,5 +1,5 @@
 import Foundation
-import ApolloAPI
+import FiApolloAPI
 
 /// A protocol for a type that is responsible for sending GraphQL query and mutation operations to a server.
 ///

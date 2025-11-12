@@ -1,4 +1,4 @@
-import ApolloAPI
+import FiApolloAPI
 import Foundation
 
 /// A ``GraphQLInterceptor`` that enforces a maximum number of retries for a request

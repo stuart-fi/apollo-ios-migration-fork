@@ -1,6 +1,6 @@
 import Foundation
 import Apollo
-import ApolloAPI
+import FiApolloAPI
 
 public final class WebSocketTransport: SubscriptionNetworkTransport {
 

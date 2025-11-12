@@ -1,5 +1,5 @@
 import Foundation
-@_spi(Unsafe) import ApolloAPI
+@_spi(Unsafe) import FiApolloAPI
 
 /// The ``ApolloStoreSubscriber`` provides a means to observe changes to items in the ``ApolloStore``.
 /// This protocol is available for advanced use cases only. Most users will prefer using `ApolloClient.watch(query:)`.

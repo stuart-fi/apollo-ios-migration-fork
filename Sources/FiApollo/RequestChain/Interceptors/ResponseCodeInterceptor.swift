@@ -1,5 +1,5 @@
 import Foundation
-@_spi(Internal) import ApolloAPI
+@_spi(Internal) import FiApolloAPI
 
 /// An ``HTTPInterceptor`` that checks the response code returned with a request. If the response code indicates a
 /// failure, it throws an error, failing early and preventing unnecessary additional work.

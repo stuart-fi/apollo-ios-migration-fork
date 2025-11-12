@@ -1,5 +1,5 @@
-@_exported import ApolloAPI
-@_spi(Internal) import ApolloAPI
+@_exported import FiApolloAPI
+@_spi(Internal) import FiApolloAPI
 @_spi(Execution) @_spi(Internal) import Apollo
 import Foundation
 

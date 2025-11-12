@@ -1,5 +1,5 @@
 import Foundation
-import ApolloAPI
+import FiApolloAPI
 
 /// A ``GraphQLInterceptor`` that handles the functionality of automatic persisted queries (APQs).
 ///

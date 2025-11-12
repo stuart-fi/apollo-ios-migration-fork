@@ -1,4 +1,4 @@
-import ApolloAPI
+import FiApolloAPI
 
 /// A result parsed from GraphQL specification compliant response data.
 public struct ParsedResult<Operation: GraphQLOperation>: Sendable, Hashable {

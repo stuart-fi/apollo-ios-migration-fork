@@ -1,4 +1,4 @@
-import ApolloAPI
+import FiApolloAPI
 
 public enum RootSelectionSetInitializeError: Error {
   case hasNonHashableValue

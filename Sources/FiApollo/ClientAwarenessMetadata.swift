@@ -1,5 +1,5 @@
 import Foundation
-import ApolloAPI
+import FiApolloAPI
 
 /// A data structure containing telemetry metadata about the client. This is used by GraphOS Studio's
 /// [client awareness](https://www.apollographql.com/docs/graphos/platform/insights/client-segmentation)

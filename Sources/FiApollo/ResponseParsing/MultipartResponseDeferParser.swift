@@ -1,5 +1,5 @@
 import Foundation
-import ApolloAPI
+import FiApolloAPI
 
 /// A `MultipartResponseSpecificationParser` that parses response data for GraphQL operations that utilize the `@defer`
 /// directive as defined by the [`deferSpec=20220824`](https://www.apollographql.com/docs/graphos/routing/operations/defer)

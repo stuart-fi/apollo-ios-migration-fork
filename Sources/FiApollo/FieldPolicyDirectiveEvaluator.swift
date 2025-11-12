@@ -1,6 +1,6 @@
 import Foundation
 #if !COCOAPODS
-@_spi(Internal) import ApolloAPI
+@_spi(Internal) import FiApolloAPI
 #endif
 
 enum FieldPolicyResult {

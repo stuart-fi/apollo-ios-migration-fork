@@ -1,4 +1,4 @@
-import ApolloAPI
+import FiApolloAPI
 import Foundation
 
 /// The stream of results passed through a series of ``GraphQLInterceptor``s by a ``RequestChain``.

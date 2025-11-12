@@ -1,4 +1,4 @@
-import ApolloAPI
+import FiApolloAPI
 
 /// Represents an incremental result received as part of a deferred incremental response.
 ///

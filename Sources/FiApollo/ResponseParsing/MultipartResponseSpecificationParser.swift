@@ -1,5 +1,5 @@
 import Foundation
-import ApolloAPI
+import FiApolloAPI
 
 /// A protocol that multipart response parsers must conform to in order to be added to the list of
 /// available response specification parsers.

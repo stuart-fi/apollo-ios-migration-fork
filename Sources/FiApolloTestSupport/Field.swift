@@ -1,4 +1,4 @@
-import ApolloAPI
+import FiApolloAPI
 
 @propertyWrapper
 public struct Field<T>: Sendable {

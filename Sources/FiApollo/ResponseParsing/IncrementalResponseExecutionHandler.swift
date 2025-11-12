@@ -1,5 +1,5 @@
 import Foundation
-@_spi(Execution) @_spi(Internal) @_spi(Unsafe) import ApolloAPI
+@_spi(Execution) @_spi(Internal) @_spi(Unsafe) import FiApolloAPI
 
 public enum IncrementalResponseError: Error, LocalizedError, Equatable {
   case missingExistingData

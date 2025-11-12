@@ -1,4 +1,4 @@
-@_spi(Internal) @_spi(Unsafe) import ApolloAPI
+@_spi(Internal) @_spi(Unsafe) import FiApolloAPI
 
 /// Represents the result of a GraphQL operation, including the response data as well as any ``GraphQLError``s
 /// or extension data included in the response.

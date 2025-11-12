@@ -1,4 +1,4 @@
-import ApolloAPI
+import FiApolloAPI
 
 @_spi(Execution)
 public protocol GraphQLResultAccumulator: AnyObject {

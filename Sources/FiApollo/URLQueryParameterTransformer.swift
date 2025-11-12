@@ -1,4 +1,4 @@
-@_spi(Internal) import ApolloAPI
+@_spi(Internal) import FiApolloAPI
 import Foundation
 
 /// A helper for transforming a `JSONEncodableDictionary` that can be sent with a `POST` request into a URL with query parameters for a `GET` request.

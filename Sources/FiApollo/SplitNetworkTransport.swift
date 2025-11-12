@@ -1,5 +1,5 @@
 import Foundation
-import ApolloAPI
+import FiApolloAPI
 
 /// A network transport that sends allows you to use different `NetworkTransport` types for each operation type.
 ///

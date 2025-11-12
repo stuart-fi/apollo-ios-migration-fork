@@ -1,4 +1,4 @@
-import ApolloAPI
+import FiApolloAPI
 
 /// Represents a reference to a record for a GraphQL object in the cache.
 ///

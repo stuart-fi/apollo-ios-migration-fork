@@ -1,5 +1,5 @@
 import Foundation
-@_spi(Internal) import ApolloAPI
+@_spi(Internal) import FiApolloAPI
 
 /// Represents an error encountered during the execution of a GraphQL operation.
 ///

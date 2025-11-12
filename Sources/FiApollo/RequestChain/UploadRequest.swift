@@ -1,5 +1,5 @@
 import Foundation
-import ApolloAPI
+import FiApolloAPI
 
 /// A request class allowing for a multipart-upload request.
 public struct UploadRequest<Operation: GraphQLOperation>: GraphQLRequest {

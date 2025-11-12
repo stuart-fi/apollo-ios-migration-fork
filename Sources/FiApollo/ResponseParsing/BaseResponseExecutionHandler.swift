@@ -1,4 +1,4 @@
-@_spi(Internal) import ApolloAPI
+@_spi(Internal) import FiApolloAPI
 
 struct BaseResponseExecutionHandler: Sendable {
 

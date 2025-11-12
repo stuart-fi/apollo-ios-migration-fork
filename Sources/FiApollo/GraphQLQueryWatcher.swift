@@ -1,5 +1,5 @@
 import Foundation
-import ApolloAPI
+import FiApolloAPI
 
 /// A ``GraphQLQueryWatcher`` is responsible for watching the store, and calling the result handler with a new result
 /// whenever any of query's data changes.

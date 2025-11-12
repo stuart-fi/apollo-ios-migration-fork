@@ -1,5 +1,5 @@
 import Foundation
-import ApolloAPI
+import FiApolloAPI
 
 /// A protocol for a type that represents a request to fetch a ``/ApolloAPI/GraphQLOperation``.
 public protocol GraphQLRequest<Operation>: Sendable {
