@@ -15,7 +15,7 @@ let package = Package(
     .library(name: "FiApollo", targets: ["FiApollo"]),
     .library(name: "FiApolloAPI", targets: ["FiApolloAPI"]),
     .library(name: "FiApollo-Dynamic", type: .dynamic, targets: ["FiApollo"]),
-    .library(name: "FiApolloSQLite", targets: ["ApolloSQLite"]),
+    .library(name: "FiApolloSQLite", targets: ["FiApolloSQLite"]),
     .library(name: "FiApolloWebSocket", targets: ["FiApolloWebSocket"]),
     .library(name: "ApolloTestSupport", targets: ["FiApolloTestSupport"]),
     .plugin(name: "InstallCLI", targets: ["Install CLI"])
