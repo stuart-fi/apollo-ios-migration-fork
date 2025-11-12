@@ -12,20 +12,20 @@ let package = Package(
     .visionOS(.v1),
   ],
   products: [
-    .library(name: "FiApollo", targets: ["Apollo"]),
-    .library(name: "FiApolloAPI", targets: ["ApolloAPI"]),
-    .library(name: "Apollo-Dynamic", type: .dynamic, targets: ["Apollo"]),
-    .library(name: "ApolloSQLite", targets: ["ApolloSQLite"]),
-    .library(name: "FiApolloWebSocket", targets: ["ApolloWebSocket"]),
-    .library(name: "ApolloTestSupport", targets: ["ApolloTestSupport"]),
+    .library(name: "FiApollo", targets: ["FiApollo"]),
+    .library(name: "FiApolloAPI", targets: ["FiApolloAPI"]),
+    .library(name: "FiApollo-Dynamic", type: .dynamic, targets: ["FiApollo"]),
+    .library(name: "FiApolloSQLite", targets: ["ApolloSQLite"]),
+    .library(name: "FiApolloWebSocket", targets: ["FiApolloWebSocket"]),
+    .library(name: "ApolloTestSupport", targets: ["FiApolloTestSupport"]),
     .plugin(name: "InstallCLI", targets: ["Install CLI"])
   ],
   dependencies: [],
   targets: [
     .target(
-      name: "Apollo",
+      name: "FiApollo",
       dependencies: [
-        "ApolloAPI"
+        "FiApolloAPI"
       ],
       resources: [
         .copy("Resources/PrivacyInfo.xcprivacy")
@@ -35,7 +35,7 @@ let package = Package(
       ]
     ),
     .target(
-      name: "ApolloAPI",
+      name: "FiApolloAPI",
       dependencies: [],
       resources: [
         .copy("Resources/PrivacyInfo.xcprivacy")
@@ -45,9 +45,9 @@ let package = Package(
       ]
     ),
     .target(
-      name: "ApolloSQLite",
+      name: "FiApolloSQLite",
       dependencies: [
-        "Apollo",
+        "FiApollo",
       ],
       resources: [
         .copy("Resources/PrivacyInfo.xcprivacy")
@@ -57,9 +57,9 @@ let package = Package(
       ]
     ),
     .target(
-      name: "ApolloWebSocket",
+      name: "FiApolloWebSocket",
       dependencies: [
-        "Apollo"
+        "FiApollo"
       ],
       resources: [
         .copy("Resources/PrivacyInfo.xcprivacy")
@@ -69,10 +69,10 @@ let package = Package(
       ]
     ),
     .target(
-      name: "ApolloTestSupport",
+      name: "FiApolloTestSupport",
       dependencies: [
-        "Apollo",
-        "ApolloAPI"
+        "FiApollo",
+        "FiApolloAPI"
       ],
       swiftSettings: [
         .swiftLanguageMode(.v6)
