@@ -128,8 +128,8 @@ public struct ClientAwarenessMetadata: Sendable {
   func applyExtension(to body: inout JSONEncodableDictionary) {
     if self.includeApolloLibraryAwareness {
       let clientLibraryMetadata: JSONEncodableDictionary = [
-        "name": Apollo.Constants.ApolloClientName,
-        "version": Apollo.Constants.ApolloClientVersion
+        "name": FiApollo.Constants.ApolloClientName,
+        "version": FiApollo.Constants.ApolloClientVersion
       ]
 
       var extensions = body["extensions"] as? JSONEncodableDictionary ?? JSONEncodableDictionary()

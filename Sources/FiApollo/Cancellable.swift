@@ -10,7 +10,7 @@ public protocol Cancellable: Sendable {
 // MARK: - Task Cancellable
 
 @available(*, deprecated)
-final class TaskCancellable<Success: Sendable, Failure: Error>: Apollo.Cancellable {
+final class TaskCancellable<Success: Sendable, Failure: Error>: FiApollo.Cancellable {
 
   let task: Task<Success, Failure>
 

@@ -1,5 +1,5 @@
 import Foundation
-import Apollo
+import FiApollo
 
 public struct DatabaseRow {
   let cacheKey: CacheKey

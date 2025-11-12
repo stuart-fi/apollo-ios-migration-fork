@@ -1,5 +1,5 @@
 import Foundation
-import Apollo
+import FiApollo
 import FiApolloAPI
 
 public final class WebSocketTransport: SubscriptionNetworkTransport {
@@ -12,9 +12,9 @@ public final class WebSocketTransport: SubscriptionNetworkTransport {
 
   public func send<Subscription: GraphQLSubscription>(
     subscription: Subscription,
-    fetchBehavior: Apollo.FetchBehavior,
-    requestConfiguration: Apollo.RequestConfiguration
-  ) throws -> AsyncThrowingStream<Apollo.GraphQLResponse<Subscription>, any Swift.Error> {
+    fetchBehavior: FiApollo.FetchBehavior,
+    requestConfiguration: FiApollo.RequestConfiguration
+  ) throws -> AsyncThrowingStream<FiApollo.GraphQLResponse<Subscription>, any Swift.Error> {
     throw Error.notImplemented
   }
 

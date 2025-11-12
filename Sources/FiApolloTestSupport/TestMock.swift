@@ -1,6 +1,6 @@
 @_exported import FiApolloAPI
 @_spi(Internal) import FiApolloAPI
-@_spi(Execution) @_spi(Internal) import Apollo
+@_spi(Execution) @_spi(Internal) import FiApollo
 import Foundation
 
 @dynamicMemberLookup

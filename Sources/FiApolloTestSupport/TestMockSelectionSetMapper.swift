@@ -1,4 +1,4 @@
-@_spi(Execution) import Apollo
+@_spi(Execution) import FiApollo
 @_spi(Unsafe) import FiApolloAPI
 import Foundation
 

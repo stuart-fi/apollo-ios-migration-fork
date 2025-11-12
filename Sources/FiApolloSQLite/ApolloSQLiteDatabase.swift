@@ -1,5 +1,5 @@
 import Foundation
-import Apollo
+import FiApollo
 import SQLite3
 
 public final class ApolloSQLiteDatabase: SQLiteDatabase {
