@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "Apollo",
+  name: "FiApollo",
   platforms: [
     .iOS(.v15),
     .macOS(.v12),
@@ -12,11 +12,11 @@ let package = Package(
     .visionOS(.v1),
   ],
   products: [
-    .library(name: "Apollo", targets: ["Apollo"]),
-    .library(name: "ApolloAPI", targets: ["ApolloAPI"]),
+    .library(name: "FiApollo", targets: ["Apollo"]),
+    .library(name: "FiApolloAPI", targets: ["ApolloAPI"]),
     .library(name: "Apollo-Dynamic", type: .dynamic, targets: ["Apollo"]),
     .library(name: "ApolloSQLite", targets: ["ApolloSQLite"]),
-    .library(name: "ApolloWebSocket", targets: ["ApolloWebSocket"]),
+    .library(name: "FiApolloWebSocket", targets: ["ApolloWebSocket"]),
     .library(name: "ApolloTestSupport", targets: ["ApolloTestSupport"]),
     .plugin(name: "InstallCLI", targets: ["Install CLI"])
   ],
