@@ -12,12 +12,12 @@ let package = Package(
     .watchOS(.v5)
   ],
   products: [
-    .library(name: "Apollo", targets: ["Apollo"]),
-    .library(name: "ApolloAPI", targets: ["ApolloAPI"]),
-    .library(name: "Apollo-Dynamic", type: .dynamic, targets: ["Apollo"]),
-    .library(name: "ApolloSQLite", targets: ["ApolloSQLite"]),
-    .library(name: "ApolloWebSocket", targets: ["ApolloWebSocket"]),
-    .library(name: "ApolloTestSupport", targets: ["ApolloTestSupport"]),
+    .library(name: "FiApollo", targets: ["FiApollo"]),
+    .library(name: "FiApolloAPI", targets: ["FiApolloAPI"]),
+    .library(name: "FiApollo-Dynamic", type: .dynamic, targets: ["FiApollo"]),
+    .library(name: "FiApolloSQLite", targets: ["FiApolloSQLite"]),
+    .library(name: "FiApolloWebSocket", targets: ["FiApolloWebSocket"]),
+    .library(name: "FiApolloTestSupport", targets: ["FiApolloTestSupport"]),
     .plugin(name: "InstallCLI", targets: ["Install CLI"])
   ],
   dependencies: [
@@ -27,33 +27,33 @@ let package = Package(
   ],
   targets: [
     .target(
-      name: "Apollo",
+      name: "FiApollo",
       dependencies: [
-        "ApolloAPI"
+        "FiApolloAPI"
       ]
     ),
     .target(
-      name: "ApolloAPI",
+      name: "FiApolloAPI",
       dependencies: []
     ),
     .target(
-      name: "ApolloSQLite",
+      name: "FiApolloSQLite",
       dependencies: [
-        "Apollo",
+        "FiApollo",
         .product(name: "SQLite", package: "SQLite.swift"),
       ]
     ),
     .target(
-      name: "ApolloWebSocket",
+      name: "FiApolloWebSocket",
       dependencies: [
-        "Apollo"
+        "FiApollo"
       ]
     ),
     .target(
-      name: "ApolloTestSupport",
+      name: "FiApolloTestSupport",
       dependencies: [
-        "Apollo",
-        "ApolloAPI"
+        "FiApollo",
+        "FiApolloAPI"
       ]
     ),
     .plugin(
